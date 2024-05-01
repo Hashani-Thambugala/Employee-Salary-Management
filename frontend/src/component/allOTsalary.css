@@ -1,0 +1,42 @@
+/* allSalary.css */
+
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 200px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #e9abab;
+  }
+  
+  .table tr:hover {
+    background-color: #ae9292;
+    width:fit-content
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .button-group button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-group button:hover {
+    background-color: #3c7bbe;
+    
+  }
+  

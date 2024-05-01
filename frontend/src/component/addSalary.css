@@ -1,0 +1,58 @@
+/* /* addOTSalary.css */
+/* 
+.container1 {
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #f83a3a;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 30px;
+    background-color: #eedede;
+  } */
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 40px;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-back {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-back:hover {
+    background-color: #5a6268;
+  }
+  

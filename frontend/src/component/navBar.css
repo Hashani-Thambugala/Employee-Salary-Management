@@ -1,0 +1,56 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px; /* Adjust the width as needed */
+    background-color: #ce8c8c; /* Sidebar background color */
+    color: #fff; /* Text color */
+    padding-top: 20px; /* Add some padding to the top */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.wrapper {
+    display: flex;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px 20px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Active link style */
+.sidebar a.active {
+    background-color: #555;
+}
+
+/* Dropdown styles */
+.sidebar-dropdown {
+    display: none;
+    padding-left: 20px;
+}
+
+.sidebar-dropdown.show {
+    display: block;
+}
